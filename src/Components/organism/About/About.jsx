@@ -6,11 +6,10 @@ import { images } from "../../../constants";
 function About() {
   return (
     <div className="about app__bg flex__center section__padding" id="about">
-      <div className="about-overlay flex__center">
+      {/* <div className="about-overlay flex__center">
         <img src={images.G} alt="letter" />
-      </div>
+      </div> */}
       <div className="about_content flex__center">
-        
         <div className="about_content_about">
           <h1 className="headtext__cormorant ">About Us</h1>
           <img src={images.spoon} alt="spoon" className="spoon__img" />
