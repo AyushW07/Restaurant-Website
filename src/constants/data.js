@@ -1,82 +1,72 @@
-import images from './images';
+import images from "./images";
 
-const wines = [
+const main = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
+    title: "Butter Chicken",
+    price: "$16.99",
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
+    title: "Palak Paneer",
+    price: "$19.99",
   },
   {
-    title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
+    title: "Malai Kofta",
+    price: "$14.99",
   },
   {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
+    title: "Chicken Korma",
+    price: "$20.99",
   },
   {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
+    title: "Vegetable Biryani",
+    price: "$19.99",
   },
 ];
 
-const cocktails = [
+const chef = [
   {
-    title: 'Aperol Sprtiz',
-    price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    title: "Chicken Biryani",
+    price: "$30.99",
   },
   {
-    title: "Dark 'N' Stormy",
-    price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    title: "Tandoori Chicken",
+    price: "$16.99",
   },
   {
-    title: 'Daiquiri',
-    price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
+    title: "Tandoori Platter",
+    price: "$25.99",
   },
   {
-    title: 'Old Fashioned',
-    price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
+    title: "Paneer Lababdar",
+    price: "$17.99",
   },
   {
-    title: 'Negroni',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    title: "Paneer Tikka Masala",
+    price: "$16.99",
   },
 ];
 
 const awards = [
   {
     imgUrl: images.award02,
-    title: 'Bib Gourmond',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: "Bib Gourmond",
+    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
   },
   {
     imgUrl: images.award01,
-    title: 'Rising Star',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: "Rising Star",
+    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
   },
   {
     imgUrl: images.award05,
-    title: 'AA Hospitality',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: "AA Hospitality",
+    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
   },
   {
     imgUrl: images.award03,
-    title: 'Outstanding Chef',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: "Outstanding Chef",
+    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
   },
 ];
 
-export default { wines, cocktails, awards };
+export default { main, chef, awards };
