@@ -2,17 +2,6 @@
   position: relative;
 }
 
-.about-overlay {
-  position: absolute;
-  inset: 0;
-}
-
-.about-overlay img {
-  width: 391px;
-  height: 415px;
-  z-index: 0;
-}
-
 .about_content {
   width: 100%;
   z-index: 2;

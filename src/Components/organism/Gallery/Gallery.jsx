@@ -23,10 +23,10 @@ function Gallery() {
   };
 
   const allImages = [
-    images.gallery01,
-    images.gallery02,
-    images.gallery03,
-    images.gallery04,
+    images.gallery1,
+    images.gallery2,
+    images.gallery3,
+    images.gallery4,
   ];
 
   return (

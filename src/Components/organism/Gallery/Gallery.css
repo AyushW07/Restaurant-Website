@@ -67,6 +67,72 @@
   opacity: 0.35;
 }
 
-.image-card:hover .image_arrow {
+.image-card:hover .instaIcon {
   opacity: 1;
+}
+
+.image_arrow {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  position: absolute;
+  bottom: 5%;
+}
+
+.arrow_icon {
+  color: var(--color-golden);
+  font-size: 2rem;
+  cursor: pointer;
+  background-color: var(--color-black);
+  border-radius: 5px;
+}
+
+.arrow_icon:hover {
+  color: var(--color-white);
+}
+
+@media screen and (min-width: 2000px) {
+  .gallery_content {
+    min-width: 1000px;
+    padding-right: 4rem;
+  }
+
+  .image-card {
+    min-width: 400px;
+    height: 550px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .gallery {
+    flex-direction: column;
+  }
+
+  .gallery_image {
+    max-width: 100%;
+    margin: 5rem 0;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .gallery {
+    padding: 4rem 0 4rem 4rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .gallery {
+    padding: 4rem 0 4rem 2rem;
+  }
+
+  .gallery_content {
+    min-width: 100%;
+  }
+
+  .image-card {
+    min-width: 240px;
+    height: 320px;
+  }
 }
