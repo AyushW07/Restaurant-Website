@@ -11,7 +11,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar_logo">
-        <img src={images.gericht} alt="Logo" />
+        <img src={images.logo7s} alt="Logo" />
       </div>
       <ul className="navbar_links">
         <li className="p__opensans">

@@ -102,6 +102,8 @@
 @media screen and (max-width: 2000px) {
   .navbar_logo img {
     width: 210px;
+    height: 65px;
+    object-fit: cover;
   }
 }
 
