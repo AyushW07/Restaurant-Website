@@ -3,6 +3,7 @@ import Navbar from "./Components/molecules/Navbar/Navbar";
 import About from "./Components/organism/About/About";
 import Awards from "./Components/organism/Awards/Awards";
 import Chef from "./Components/organism/Chef/Chef";
+import FindUs from "./Components/organism/FindUs/FindUs";
 import Gallery from "./Components/organism/Gallery/Gallery";
 import Header from "./Components/organism/Header/Header";
 import Intro from "./Components/organism/Intro/Intro";
@@ -19,6 +20,7 @@ function App() {
       <Intro />
       <Awards />
       <Gallery />
+      <FindUs/>
     </div>
   );
 }
