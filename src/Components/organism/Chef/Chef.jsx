@@ -30,7 +30,7 @@ function Chef() {
         </div>
 
         <div className="chef_sign">
-          <p>Kevin Luo</p>
+          <p>Ayush Wasnik</p>
           <p className="p__opensans">Chef & Founder</p>
           <img src={images.sign} alt="sign" />
         </div>
