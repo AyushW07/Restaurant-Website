@@ -18,14 +18,15 @@ function Chef() {
           <div className="chef_quote">
             <img src={images.quote} alt="quote" />
             <p className="p__opensans">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis
-              suscipit magnam earum.
+              I am truly grateful for the opportunity to share my passion for
+              culinary artistry with you.
             </p>
           </div>
           <p className="p__opensans">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-            sed, iste consequuntur deleniti neque sunt unde consectetur
-            incidunt, odio libero fugit quis nulla quos? Alias?
+            Join us at 7's Restaurant and allow our team to take you on an
+            unforgettable culinary adventure, where exceptional flavors and
+            impeccable service converge to create an experience that lingers
+            long after your last bite.
           </p>
         </div>
 

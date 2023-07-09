@@ -35,8 +35,13 @@ function Gallery() {
         <SubHeading title="Instagram" />
         <h1 className="headtext__cormorant">Photo Gallery</h1>
         <p className="p__opensans" style={{ color: "#aaa", marginTop: "2rem" }}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed,
-          accusamus.
+          Explore our photo gallery to get a glimpse of the exquisite dishes,
+          elegant ambiance. From beautifully plated creations to the cozy and
+          inviting interior, these images capture the essence of the dining
+          experience we offer. We take pride in creating visually stunning
+          dishes that are as delightful to the eye as they are to the palate.
+          Join us and immerse yourself in the enticing world of flavors and
+          aesthetics.
         </p>
         <button type="button" className="custom__button">
           View More

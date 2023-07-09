@@ -48,24 +48,28 @@ const chef = [
 
 const awards = [
   {
-    imgUrl: images.award02,
-    title: "Bib Gourmond",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
-  },
-  {
     imgUrl: images.award01,
-    title: "Rising Star",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
+    title: "Best Customer Service",
+    subtitle:
+      "Appreciating our dedication to delivering outstanding customer service and satisfaction.",
   },
   {
-    imgUrl: images.award05,
-    title: "AA Hospitality",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
+    imgUrl: images.award02,
+    title: "Best Indian Restaurant",
+    subtitle:
+      "Recognizing our culinary excellence and authentic Indian flavors.",
   },
   {
     imgUrl: images.award03,
     title: "Outstanding Chef",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
+    subtitle:
+      "Celebrating our exceptional chef's culinary artistry and dedication to creating extraordinary flavors",
+  },
+  {
+    imgUrl: images.award05,
+    title: "Outstanding Hospitality Award",
+    subtitle:
+      "Honoring our exceptional hospitality and warm, welcoming atmosphere.",
   },
 ];
 
