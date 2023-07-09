@@ -12,18 +12,8 @@ function Header() {
         <p className="p__opensans" style={{ margin: "2rem 0" }}>
           Discover Culinary Excellence at 7's restaurant : A Fusion of Flavors
         </p>
-        {/* <p className="p__opensans" style={{ margin: "2rem 0" }}>
-          Welcome to our 7's restaurant, where culinary traditions and passion
-          for flavors come together. Immerse yourself in the vibrant and diverse
-          world of Indian Foods, as our talented chefs take you on a journey of
-          taste sensations. From fragrant spices to mouthwatering curries, each
-          dish on our menu is a masterpiece crafted with love and expertise. Our
-          commitment to using fresh, locally sourced ingredients ensures that
-          every bite is a celebration of authenticity and quality.Discover 7's
-          restaurant, your gateway to Indian cuisine at its finest.
-        </p> */}
         <button type="button" className="custom__button">
-          Explore Menu
+          <a href="#menu">Explore Menu</a>
         </button>
       </div>
 

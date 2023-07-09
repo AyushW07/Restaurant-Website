@@ -1,6 +1,6 @@
 import React from "react";
-// import "./FindUs.css";
-import { images, data } from "../../../constants";
+
+import { images } from "../../../constants";
 import SubHeading from "../../molecules/SubHeading/SubHeading";
 
 function FindUs() {
@@ -13,10 +13,7 @@ function FindUs() {
         </h1>
 
         <div className="find_content">
-          <p className="p__opensans">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus,
-            quae.
-          </p>
+          <p className="p__opensans">Mumbai, India</p>
           <p
             className="p__cormorant"
             style={{ color: "#dcca87", margin: "2rem 0" }}

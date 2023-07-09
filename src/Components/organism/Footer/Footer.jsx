@@ -34,14 +34,20 @@ function Footer() {
             style={{ marginTop: "15px" }}
           />
           <div className="links_icons">
-            <FiFacebook/>
-            <FiTwitter/>
-            <FiInstagram/>
+            <a href="https://www.facebook.com/" target="_blank">
+              <FiFacebook />
+            </a>
+            <a href="https://www.twitter.com/" target="_blank">
+              <FiTwitter />
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+              <FiInstagram />
+            </a>
           </div>
         </div>
 
         <div className="working">
-        <h1 className="contact_header">Working Hours</h1>
+          <h1 className="contact_header">Working Hours</h1>
           <p className="p__opensans">Monday - Friday</p>
           <p className="p__opensans">10:00 am - 01:00 am</p>
           <p className="p__opensans">Saturday - Sunday</p>
