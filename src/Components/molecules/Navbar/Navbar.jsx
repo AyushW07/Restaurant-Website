@@ -55,19 +55,29 @@ function Navbar() {
             />
             <ul className="navbar_sm-screen_links">
               <li className="p__opensans">
-                <a href="#home">Home</a>
+                <a href="#home" onClick={() => setToggle(false)}>
+                  Home
+                </a>
               </li>
               <li className="p__opensans">
-                <a href="#about">About</a>
+                <a href="#about" onClick={() => setToggle(false)}>
+                  About
+                </a>
               </li>
               <li className="p__opensans">
-                <a href="#menu">Menu</a>
+                <a href="#menu" onClick={() => setToggle(false)}>
+                  Menu
+                </a>
               </li>
               <li className="p__opensans">
-                <a href="#awards">Awards</a>
+                <a href="#awards" onClick={() => setToggle(false)}>
+                  Awards
+                </a>
               </li>
               <li className="p__opensans">
-                <a href="#contact">Contact</a>
+                <a href="#contact" onClick={() => setToggle(false)}>
+                  Contact
+                </a>
               </li>
             </ul>
           </div>
