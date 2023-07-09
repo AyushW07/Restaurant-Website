@@ -1,5 +1,5 @@
 import React from "react";
-import "./FindUs.css";
+// import "./FindUs.css";
 import { images, data } from "../../../constants";
 import SubHeading from "../../molecules/SubHeading/SubHeading";
 
