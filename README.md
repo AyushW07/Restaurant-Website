@@ -1,6 +1,6 @@
 # 7's Restaurant Website
 
-Welcome to the 7's Restaurant Website repository! This project showcases a fully functional website for our restaurant, highlighting our menu, team, and various features.
+Welcome to the 7's Restaurant Website repository! This project showcases a landing page for our restaurant, highlighting our menu, team, and various features.
 
 ## Deployment Link
 
